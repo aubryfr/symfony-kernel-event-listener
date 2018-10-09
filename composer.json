@@ -1,0 +1,20 @@
+{
+    "name": "aubry/symfony-kernel-event-listener",
+    "description": "Defines interfaces for Symfony taggable kernel event listeners.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aubry Pirian",
+            "email": "aubry.pirian@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/http-kernel": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aubry\\SymfonyKernelEventListener\\": "src/"
+        }
+    }
+}
